@@ -1,0 +1,9 @@
+main h1 {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.post-text {
+    margin: 50px 50px;
+    font-size: larger;
+}

@@ -1,0 +1,112 @@
+html {
+    font-size: 12px;
+    font-family: "Pathway Extreme", monospace;
+}
+
+body {
+    background-color: darkslategray;
+    padding: 20px 20px;
+}
+
+h1, h2, h3, p, a, li {
+    color: whitesmoke;
+}
+
+header {
+    width: 100%;
+    border-bottom: black;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    margin-left: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+header div {
+    margin-left: auto;
+}
+
+header div a {
+    padding: 10px 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: larger;
+    text-decoration: none;
+}
+
+header div a:hover {
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 50px;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+main div p {
+    margin: 0;
+    padding: 0;
+}
+
+.date {
+    margin-top: 5px;
+    padding-top: 15px;
+    border-top: black;
+    border-top-style: solid;
+    border-top-width: thin;
+}
+
+main div a {
+    margin-bottom: 5px;
+    font-size: larger;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.short {
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    border-bottom: black;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+
+main div a:hover {
+    font-size: x-large;
+    color: dodgerblue;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #2f2f2f;
+    height: 50px;
+    width: 100%;
+    left: 0;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+footer p {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+blockquote {
+    color: lightgrey;
+    font-style: italic;
+    border-left: goldenrod;
+    border-left-style: solid;
+    border-left-width: thin;
+    padding-left: 15px;
+}
