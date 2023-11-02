@@ -4,6 +4,10 @@ main h1 {
 }
 
 .post-text {
-    margin: 50px 50px;
+    margin: 35px 35px;
     font-size: larger;
+}
+
+.post-text span {
+    font-style: italic;
 }

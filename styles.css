@@ -4,12 +4,12 @@ html {
 }
 
 body {
-    background-color: darkslategray;
+    background-color: #3f2e3e;
     padding: 20px 20px;
 }
 
 h1, h2, h3, p, a, li {
-    color: whitesmoke;
+    color: #efe1d1;
 }
 
 header {
@@ -89,7 +89,7 @@ main div a:hover {
 footer {
     position: fixed;
     bottom: 0;
-    background-color: #2f2f2f;
+    background-color: #331d2c;
     height: 50px;
     width: 100%;
     left: 0;
