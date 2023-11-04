@@ -8,15 +8,13 @@ body {
     padding: 20px 20px;
 }
 
-h1, h2, h3, p, a, li {
+h1, h2, h3, p, a, li, summary, th, td {
     color: #efe1d1;
 }
 
 header {
     width: 100%;
-    border-bottom: black;
-    border-bottom-style: solid;
-    border-bottom-width: medium;
+    border-bottom: black solid medium;
     display: flex;
     align-items: center;
 }
@@ -40,9 +38,7 @@ header div a {
 }
 
 header div a:hover {
-    border-color: lightgrey;
-    border-style: solid;
-    border-width: thin;
+    border: lightgrey solid thin;
     border-radius: 50px;
 }
 
@@ -51,7 +47,7 @@ p {
     text-justify: inter-word;
 }
 
-main div p {
+main article p {
     margin: 0;
     padding: 0;
 }
@@ -59,12 +55,10 @@ main div p {
 .date {
     margin-top: 5px;
     padding-top: 15px;
-    border-top: black;
-    border-top-style: solid;
-    border-top-width: thin;
+    border-top: black solid thin;
 }
 
-main div a {
+main article a {
     margin-bottom: 5px;
     font-size: larger;
     color: white;
@@ -76,12 +70,10 @@ main div a {
 .short {
     padding-bottom: 10px;
     margin-bottom: 5px;
-    border-bottom: black;
-    border-bottom-style: solid;
-    border-bottom-width: thin;
+    border-bottom: black solid thin;
 }
 
-main div a:hover {
+main article a:hover {
     font-size: x-large;
     color: dodgerblue;
 }
@@ -105,8 +97,10 @@ footer p {
 blockquote {
     color: lightgrey;
     font-style: italic;
-    border-left: goldenrod;
-    border-left-style: solid;
-    border-left-width: thin;
+    border-left: goldenrod solid thin;
     padding-left: 15px;
+}
+
+th, td {
+    border: #efe1d1 solid thin;
 }
